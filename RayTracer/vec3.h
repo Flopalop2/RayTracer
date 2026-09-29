@@ -3,6 +3,7 @@
 
 #include <cmath>
 #include <iostream>
+#include "utility.h"
 
 using std::sqrt;
 

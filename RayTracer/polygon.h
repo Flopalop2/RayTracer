@@ -56,7 +56,7 @@ bool polygon::hit(const ray& r, double t_min, double t_max, hit_record& rec) con
    if (t < t_min || t > t_max) return false;
    if (vd > 0) pn = pn * -1; //reverse planes normal
    
-   auto ri = vec3((r.origin().e[0] + r.direction().e[0] * t), (r.origin().e[1] + r.origin().e[1] * t), (r.origin().e[2] + r.direction().e[2] * t));
+   auto ri = vec3((r.origin().e[0] + r.direction().e[0] * t), (r.origin().e[1] + r.direction().e[1] * t), (r.origin().e[2] + r.direction().e[2] * t));
 
    //project points
    vector<vector<double>> projected;

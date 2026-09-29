@@ -14,6 +14,7 @@ using std::shared_ptr;
 using std::make_shared;
 using std::sqrt;
 using std::vector;
+using std::make_unique;
 
 // Constants
 

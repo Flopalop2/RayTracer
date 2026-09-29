@@ -4,8 +4,8 @@
 
 #include "utility.h"
 #include "light.h"
-//#include "hittable.h" 
-struct hit_record;
+#include "hittable.h" 
+//struct hit_record;
 
 class material {
 public:
